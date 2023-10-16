@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://wos6vagm2aof"]
+[gd_scene load_steps=2 format=3 uid="uid://wos6vagm2aof"]
+
+[ext_resource type="Texture2D" uid="uid://tnam5vvlhn0l" path="res://groundTest.jpg" id="1_65id6"]
 
 [node name="tutorial" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("1_65id6")
